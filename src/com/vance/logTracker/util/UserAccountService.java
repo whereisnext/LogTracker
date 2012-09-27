@@ -1,0 +1,9 @@
+package com.vance.logTracker.util;
+
+public enum UserAccountService {
+	searchUser,createUserWithInvitationToken,authenticateByEmailAddress,createUpdateUser,
+	getResetPasswordToken,createUpdateUserGroup,createUpdateAccount,getUser,getUserGroup,
+	createUpdateRole,searchUserGroup,getInvitationToken,resetPassword,getRolesByAccountOID,
+	changePassword,getAccount,impersonate,
+	getUserGroupsByAccountOID,authenticate,getRole,validateInvitationToken,searchAccount,validateToken;
+}

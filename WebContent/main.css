@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+table {
+	border-width: 1px;
+	border-spacing: 1px;
+	border-style: outset;
+	border-color: blue;
+	border-collapse:inherit;
+	background-color: white;
+}
+
+table th {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+	-moz-border-radius: ;
+}
+table td {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+	-moz-border-radius: ;
+}

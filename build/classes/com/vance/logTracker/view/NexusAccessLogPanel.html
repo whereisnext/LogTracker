@@ -1,0 +1,67 @@
+<html 
+	xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:wicket="http://wicket.sourceforge.net/" 
+	xml:lang="en" 
+	lang="en">  
+<body>
+	<wicket:panel>
+		<div wicket:id="nexusChart" id="nexusChart">
+			<div id="myRunning" style="">Rendering the performancechart......</div>
+		</div>
+		<br>
+	<table>
+
+		<thead class="accessLogHeader">
+			<td>URL</td>
+			<td>AvgResponseDataSize</td>
+			<td>AvgResponseTime(ms)</td>
+			<td>MinResponseTime(ms)</td>
+			<td>MaxResponseTime(ms)</td>
+			<td>TotalHits</td>
+			<td>90%Line(ms)</td>
+			<td>count_3000</td>
+			<td>count_2000</td>
+			<td>count_1000</td>
+			<td>count_500</td>
+			<td>count_200</td>
+			<td>count_50</td>
+			<td>count_0</td>
+			<td>errorCount</td>
+		</thead>
+		<tr wicket:id="nexusListView">
+			<td><a wicket:id="url"><div wicket:id="urlNameValue"></div></a>
+			</td>
+			<td><div wicket:id="avgResponseDataSize" id="avgResponseDataSize"></div>
+			</td>
+			<td><div wicket:id="avgResponseTime"></div>
+			</td>
+			<td><div wicket:id="minResponseTime"></div>
+			</td>
+			<td><div wicket:id="maxResponseTime"></div>
+			</td>
+			<td><div wicket:id="totalHits"></div>
+			</td>
+			<td><div wicket:id="ninetyPercentTime"></div>
+			</td>
+			<td><div wicket:id="count_3000"></div>
+			</td>
+			<td><div wicket:id="count_2000"></div>
+			</td>
+			<td><div wicket:id="count_1000"></div>
+			</td>
+			<td><div wicket:id="count_500"></div>
+			</td>
+			<td><div wicket:id="count_200"></div>
+			</td>
+			<td><div wicket:id="count_50"></div>
+			</td>
+			<td><div wicket:id="count_0"></div>
+			</td>
+			<td><div wicket:id="errorCount"></div>
+			</td>
+		</tr>
+	</table>
+	
+</wicket:panel>
+</body>
+</html>

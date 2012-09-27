@@ -1,0 +1,12 @@
+package com.vance.logTracker.util;
+
+public enum VendorService {
+	createSupplierAccount,deleteMeetingRooms,deleteLocalAttractions,
+	createUpdateLeadCenter,createUpdateVendor,getSupplierOIDsByContactOID,
+	getMeetingRoomsByVendorOIDs,getChangeDetails,createUpdateMeetingRooms,
+	getSupplierContacts,searchVendor,getVendors,getLocalAttractionsByVendorOIDs,
+	getSupplierAccountOID,createUpdateLocalAttractions,setVendorMapping,findLeadCenter,
+	getLeadCenters,getPromotion,convertExternalVendorIDs,getDistributionRules,
+	validateSupplierOIDs,getBrands,getAffiliations,getChains,convertVendorOIDs
+	,getLocationSuggestion,searchChain,getSupplierRelation,searchBrand,setSupplierRelation,setFeaturedFactor;
+}

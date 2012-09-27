@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>LogTracker</title>
+
+<!--Include YUI Loader: -->
+<script type="text/javascript" src="http://10.201.10.210:8080/LogTracker/yui/build/yui/yui-min.js"></script>
+<style scoped>
+body{
+font-size:100%;
+}	
+	#summaryPopupPanel{
+		font:small-caps;	
+		font-size:120%;
+		text-align:center;
+	}
+	#rfpChart {
+    margin:20px 20px 20px 20px;
+    width:100%;
+    max-width: 9900px;
+    height:500px;
+	}
+	
+	#uasChart {
+    margin:20px 20px 20px 20px;
+    width:100%;
+    max-width: 9900px;
+    height:500px;
+	}
+	
+	#contactChart {
+    margin:20px 20px 20px 20px;
+    width:100%;
+    max-width: 9900px;
+    height:500px;
+	}
+	
+	#vendorChart {
+    margin:20px 20px 20px 20px;
+    width:100%;
+    max-width: 9900px;
+    height:500px;
+	}
+	
+	
+	#smChart {
+    margin:20px 20px 20px 20px;
+    width:100%;
+    max-width: 9900px;
+    height:1000px;
+	}
+	
+	#nexusChart {
+    margin:20px 20px 20px 20px;
+    width:100%;
+    max-width: 9900px;
+    height:1000px;
+	}
+	
+	#epChart {
+    margin:20px 20px 20px 20px;
+    width:100%;
+    max-width: 9900px;
+    height:1000px;
+	}
+	
+	
+	#amChart {
+    margin:20px 20px 20px 20px;
+    width:100%;
+    max-width: 9900px;
+    height:1000px;
+	}
+	#singleUrlChart{
+	margin:20px 20px 20px 20px;
+    width:100%;
+    max-width: 9900px;
+    height:500px;
+	
+	}
+	
+	#apiChart {
+    margin:20px 20px 20px 20px;
+    width:100%;
+    max-width: 9900px;
+    height:500px;
+	}
+</style>
+</head>
+<body>
+		<a wicket:id="cbs" id="cbs">CBS</a>
+		<a wicket:id="sm" id="sm">SM</a>
+		<a wicket:id="nexus" id="nexus">Nexus</a>
+		<a wicket:id="ep" id="ep">EP</a>
+		<a wicket:id="am" id="am">AM</a>
+	
+	
+	 <br/><br/>
+
+        <a wicket:id="linkToModalWindow">SummaryPage</a>
+        <div wicket:id="modalwindow" style="margin:auto;width:200px; height:500px;"></div>
+
+        <br/><br/>
+
+        <strong>
+            <span wicket:id="resultlabel"/>
+        </strong>
+        
+<br>
+		<wicket:child />
+		
+</body>
+</html>
